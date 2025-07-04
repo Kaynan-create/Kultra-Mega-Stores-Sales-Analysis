@@ -15,50 +15,85 @@ The goal of this project was to:
  - Review shipping costs in relation to delivery methods and order priorities.
  - Provide recommendations to optimize revenue, cost efficiency, and customer satisfaction.
 ## 📂 Dataset Used
-**Source:** The Business Manager of KMS provided me with an Excel file containing KMS order records from 2009 to 2012.
-**Main tables used:**
-- KMS_Orders: Sales transactions, shipping, customer, and product data.
-- Order_Status: Order return information.
-## 🛠 Tools
-- SQL Server (T-SQL)
+- **Source:** The Business Manager of KMS provided me with an Excel file containing KMS order records from 2009 to 2012.
+- **Main tables used:**
+ - KMS_Orders: Sales transactions, shipping, customer, and product data.
+ - Order_Status: Order return information.
+## 🛠 Tools Used
+- SQL Server
 - SQL Server Management Studio (SSMS)
 ## 📌 Analysis Approach
 The following steps were followed in the analysis:
 - **Database setup**: Created `KMS_Inventory` database and structured `KMS_Orders` table with appropriate primary key and data types.
 - **Data cleaning**: Updated numeric columns (e.g., Sales, Profit, Discount) to correct decimal formats for consistency and accuracy.
-- **Exploratory queries**: Developed SQL queries to answer key business questions and solve case scenarios such as:
-  - Top-performing products, regions, and customers
-  - Low-performing customer segments and regions
-  - Shipping cost and mode analysis
-  - Customer order behaviors across segments
-  - Bottom 10 customers and how to increase their revenue
-  - Sales performance by category and region
-  - Customer-level revenue and order frequency
-  - Shipping method efficiency
-  - Return patterns across customer segments
-  - Relationship between shipping cost and order priority
-## 🎯 Key Insights
-- The highest product category by sales was **Technology** with total sales of approximately 5.98 million. This provides a focus for future promotions.
-- The top 3 regions in terms of sales were **West, Ontario and Prarie**. Their total sales were between 2.83-3.59 million approximately, they contributed the majority of sales.
-- The bottom 3 regions in terms of sales were **Nunavut, Northwest Territories and Yukon**. Their total sales were between 975,000-1.16 million approximately, they present growth opportunities for the company.
-- The bottom 10 customers generated minimal revenue, typically placing small and infrequent orders.
-- The top 10 customers were responsible for a significant portion of total sales; most bought across all product categories, with only two focusing on fewer categories.
-- The top small business customer with the highest sales was Dennis Kane with a total sales of approximately 76,000. It was identified for potential account-based marketing.
-- Analysis shows that KMS is not aligning ship modes effectively with order priority.
- - High cost slow shipping mode (delivery truck) which is expected to be the slowest and most economical is being over used, even for urgent orders while faster ship modes (Express & Regular air) are not being prioritised for high order priority as expected.
-- A total of 419 orders were returned, with returns spread across all customer segments.
-## 📈 How This Ananlysis Supports Decision Making
-The findings from this project can guide KMS in:
-- **Revenue optimization:**
+- **Exploratory queries**: Developed SQL queries to answer key business questions and solve case scenarios 
+## 🎯 Case Scenarios and Key Insights
+### Case Scenario I: Sales and Shipping Performance
+**1. 💰 Which product Category had the highest sales?**
+ - *The highest product category by sales was **Technology**. This provides a focus for future promotions.*
+   
+**2. 📍 What are the Top 3 and Bottom 3 regions in terms of sales?**
+
+*The top 3 regions in terms of sales had strong business presence and they contributed the majority of sales while the bottom 3 regions in terms of sales had weaker business presence and they present growth opportunities for the company.*
+   
+**3. 🏠 What were the total sales of appliances in Ontario?**
+
+*Appliances sales in **Ontario** were isolated to assess regional product strength.*
+
+**4. 📈 Advice KMS on increasing revenue from Bottom 10 customers**
+ - Analysis shows that these 10 customers have the least revenue, mainly buying low-value products and placing infrequent orders.
+ - Based on these results, I recommend that KMS introduces upselling strategies focused on these customers to grow their revenue.
+ - The strategies could include:
+  - conducting a survey to identify their needs in order to provide satisfaction.
+  - giving out targeted promotions or bonuses.
+  - providing free delivery for orders above a certain amount.
+
+**5. 🚚 Which shipping method incurred the most cost for KMS?**
+
+*Delivery truck had the highest total shipping cost*
+
+### Case Scenario  II: Customer Insights
+**6. 👑 Who are the most Valuable customers and what do they purchase?**
+
+*The most valuable customers are the top customers and they purchased majorly technology products and office equipments.*
+
+**7. 💼 Which small business customer had the highest sales?**
+
+**8. 🏢 Which corporate customer placed the most orders between 2009 and 2012?**
+
+**9. 🛒 Which consumer customer was the most profitable?**
+
+**10. 🔄 Which customer returned items and what segment do they belong to?**
+
+*A total of 419 orders were returned, with returns spread across all customer segments.*
+
+**11. ⚖️ Was shipping cost appropriately aligned with order priority?**
+
+**🔍 Observation**
+- Delivery truck which is expected to be the slowest and most economical is incurring the highest average shipping cost (around 43-47), and is used across all the order priorities including the critical and high.
+- Express air which is expected to be the fastest and most expensive has a lower average shipping cost (around 6-8), and is used across all order priorities including low and unspecified.
+
+**✅ In conclusion, from the analysis above, KMS is not apppopriately aligning shipping cost effectively with both ship modes and order priority.**
+## 📈 Key Recommendations
+**1. 🚀 Revenue optimization:**
  - Focus upselling efforts on low-revenue customers with targeted promotions, surveys, and personalized offers.
- - Expand market penetration strategies in bottom-performing regions.
-- **Operational cost control:**
+ - Expand market penetration strategies in bottom-performing regions (Yukon, Nunavut).
+
+**2. 🚚 Operational cost control:**
  - Review shipping policies to align shipping modes with order priority — avoid high-cost delivery trucks for low-priority or low-value orders.
  - Reassess shipping contracts or processes to ensure delivery truck remains economical, or transition to cost-effective alternatives.
-- **Customer targeting:**
+
+**3. 👥 Customer targeting:**
  - Prioritize high-value customers with loyalty programs and tailored product recommendations.
  - Strengthen engagement with small businesses and corporate clients who drive significant orders.
-- **Returns management:**
+
+**4. 📝 Returns management:**
  - Investigate reasons for returns across segments to reduce return rates and associated costs.
-## ✅ Conclusion
+## 📂 File Structure
+
+## 🎬 Final Words
 This analysis provided key insights into KMS’s sales, customer segments, and shipping operations. It highlights opportunities to grow revenue, cut shipping costs, and improve customer targeting. Acting on these findings can help KMS boost profitability and streamline operations.
+
+*Authored By*: **Canaan Olanipekun**
+
+*Date*: **June 2025**
