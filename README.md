@@ -30,13 +30,26 @@ The following steps were followed in the analysis:
 ## 🎯 Case Scenarios and Key Insights
 ### Case Scenario I: Sales and Shipping Performance
 **1. 💰 Which product Category had the highest sales?**
- - *The highest product category by sales was **Technology**. This provides a focus for future promotions.*
-   
+
+![Highest Product Category](1_highest_product_category.png)
+
+*The highest product category by sales was **Technology**. This provides a focus for future promotions.*
+
 **2. 📍 What are the Top 3 and Bottom 3 regions in terms of sales?**
 
+**Top 3**
+
+![Top 3 Regions](2_top_3_regions.png)
+
+**Bottom 3**
+
+![Bottom 3 Regions](2_bottom_3_regions.png)
+
 *The top 3 regions in terms of sales had strong business presence and they contributed the majority of sales while the bottom 3 regions in terms of sales had weaker business presence and they present growth opportunities for the company.*
-   
+
 **3. 🏠 What were the total sales of appliances in Ontario?**
+
+![Ontario Appliances Sales](3_ontario_appliances_sales.png)
 
 *Appliances sales in **Ontario** were isolated to assess regional product strength.*
 
@@ -50,24 +63,36 @@ The following steps were followed in the analysis:
 
 **5. 🚚 Which shipping method incurred the most cost for KMS?**
 
+![Costliest Ship Mode](5_costliest_ship_mode.png)
+
 *Delivery truck had the highest total shipping cost*
 
 ### Case Scenario  II: Customer Insights
 **6. 👑 Who are the most Valuable customers and what do they purchase?**
 
-*The most valuable customers are the top customers and they purchased majorly technology products and office equipments.*
+![Most Valuable Customers](6_most_valuable_customers.png)
+
+*The most valuable customers are the top customers and they majorly purchased technology products and office equipments.*
 
 **7. 💼 Which small business customer had the highest sales?**
 
+![Top Small Business Customer in Sales](7_top_small_business_sales.png)
+
 **8. 🏢 Which corporate customer placed the most orders between 2009 and 2012?**
 
+![Top Corporate Customer in Orders](8_top_corporate_orders.png)
+
 **9. 🛒 Which consumer customer was the most profitable?**
+
+![Top Consumer Customer in Profits](9_top_consumer_profits.png)
 
 **10. 🔄 Which customer returned items and what segment do they belong to?**
 
 *A total of 419 orders were returned, with returns spread across all customer segments.*
 
 **11. ⚖️ Was shipping cost appropriately aligned with order priority?**
+
+![Shipping Cost and Order Priority](11_shipping_cost_order_priority.png)
 
 **🔍 Observation**
 - Delivery truck which is expected to be the slowest and most economical is incurring the highest average shipping cost (around 43-47), and is used across all the order priorities including the critical and high.
