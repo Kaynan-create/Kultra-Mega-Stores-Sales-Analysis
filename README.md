@@ -57,9 +57,9 @@ The following steps were followed in the analysis:
  - Analysis shows that these 10 customers have the least revenue, mainly buying low-value products and placing infrequent orders.
  - Based on these results, I recommend that KMS introduces upselling strategies focused on these customers to grow their revenue.
  - The strategies could include:
-  - conducting a survey to identify their needs in order to provide satisfaction.
-  - giving out targeted promotions or bonuses.
-  - providing free delivery for orders above a certain amount.
+   - conducting a survey to identify their needs in order to provide satisfaction.
+   - giving out targeted promotions or bonuses.
+   - providing free delivery for orders above a certain amount.
 
 **5. 🚚 Which shipping method incurred the most cost for KMS?**
 
