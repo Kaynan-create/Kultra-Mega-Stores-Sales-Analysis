@@ -74,7 +74,7 @@ The following steps were followed in the analysis:
 - Express air which is expected to be the fastest and most expensive has a lower average shipping cost (around 6-8), and is used across all order priorities including low and unspecified.
 
 **✅ In conclusion, from the analysis above, KMS is not apppopriately aligning shipping cost effectively with both ship modes and order priority.**
-## 📈 Key Recommendations
+## 💡 Key Recommendations
 **1. 🚀 Revenue optimization:**
  - Focus upselling efforts on low-revenue customers with targeted promotions, surveys, and personalized offers.
  - Expand market penetration strategies in bottom-performing regions (Yukon, Nunavut).
@@ -90,6 +90,15 @@ The following steps were followed in the analysis:
 **4. 📝 Returns management:**
  - Investigate reasons for returns across segments to reduce return rates and associated costs.
 ## 📂 File Structure
+KMS-Sales-Analysis/
+
+├── [README.md](README.md) 
+
+├── [KMS_Inventory.sql](KMS_Inventory.sql) 
+
+├── [KMS_Order.csv](KMS_Order.csv)
+
+└── [Order_Status.csv](Order_Status.csv) 
 
 ## 🎬 Final Words
 This analysis provided key insights into KMS’s sales, customer segments, and shipping operations. It highlights opportunities to grow revenue, cut shipping costs, and improve customer targeting. Acting on these findings can help KMS boost profitability and streamline operations.
